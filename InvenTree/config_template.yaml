@@ -51,10 +51,10 @@ language: en-us
 # Reference: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # Select an option from the "TZ database name" column
 # Use the environment variable INVENTREE_TIMEZONE
-timezone: UTC
+timezone: IST
 
 # Base currency code
-base_currency: USD
+base_currency: INR
 
 # List of currencies supported by default.
 # Add other currencies here to allow use in InvenTree
@@ -66,6 +66,7 @@ currencies:
   - JPY
   - NZD
   - USD
+  - INR
 
 # Email backend configuration
 # Ref: https://docs.djangoproject.com/en/dev/topics/email/
